@@ -20,14 +20,6 @@ The current codebase includes scripts for:
 
 **A multimodal pipeline that analyzes music and video features to detect interesting video segments and support music-aligned highlight generation.**
 
-## Pipeline
-
-The full project pipeline is summarized below:
-
-![Project pipeline](preview_1.png)
-
-This diagram (`preview_1.png`) shows the end-to-end idea: starting from a music track and source video, extracting audio and video features, learning what makes a segment interesting, scoring new material, and pairing selected segments with music.
-
 ## Included Visual Results
 
 ### 1. Pipeline overview
