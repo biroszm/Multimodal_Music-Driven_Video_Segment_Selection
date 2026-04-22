@@ -16,10 +16,6 @@ The current codebase includes scripts for:
 
 **Multimodal Music-Driven Video Segment Selection**
 
-## Short Description
-
-**A multimodal pipeline that analyzes music and video features to detect interesting video segments and support music-aligned highlight generation.**
-
 ## Included Visual Results
 
 ### 1. Pipeline overview
