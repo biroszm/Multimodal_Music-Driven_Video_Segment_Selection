@@ -30,7 +30,6 @@ CUT_THRESHOLD = 22.0
 PROBABILITY_THRESHOLD = 0.55
 TOP_K = 30
 
-# These are the most promising features from your earlier analysis.
 CORE_FEATURES = [
     "mean_camera_motion",
     "camera_motion_stability",
@@ -570,7 +569,7 @@ def print_summary(df: pd.DataFrame, top_k: int) -> None:
 # ==========================================================
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Auto-label interesting segments in vide_try.mp4 using your earlier labeled data and the best-performing features."
+        description="Auto-label interesting segments in vide_try.mp4 using earlier labeled data and the best-performing features."
     )
     parser.add_argument("--video-path", default=INPUT_VIDEO, help="Path to the new video file.")
     parser.add_argument("--training-csv", default=TRAINING_CSV, help="Path to labeled_segments.csv from earlier manual analysis.")
